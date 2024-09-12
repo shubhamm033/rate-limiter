@@ -1,0 +1,118 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+.pipenv/
+.pipfile.lock
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pytest_cache/
+*.log
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+migrations/
+
+# Flask/Django related:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Pyre type checker
+.pyre/
+
+# MyPy type checker
+.mypy_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Environments
+.env
+.envrc
+*.env
+env.bak/
+.env.bak/
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific
+.DS_Store
+
+# JetBrains IDEs (e.g. PyCharm) settings
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore pre-built wheels
+*.whl
+
+# Ignore dependency directories
+node_modules/
+
+# Ignore editor swap/backup files
+*.swp
+*.swo
+*~
