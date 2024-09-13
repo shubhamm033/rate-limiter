@@ -24,7 +24,8 @@ class BaseStrategy(ABC):
 
         try:
             state_identifier = ":".join(self.identifier)
-            return self.convert_hash_to_dict(self.connection.hgetall(state_identifier))
+            x = self.convert_hash_to_dict(self.connection.hgetall(state_identifier))
+            return x
         except Exception as e:
             return str(e)
 

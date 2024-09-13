@@ -10,7 +10,7 @@ class RateLimitedMiddleware:
 
     def __init__(self, get_response):
         self.get_response = get_response
-        self.rate_limiter = RateLimiter('fixed_window', fetch_redis_client())
+        self.rate_limiter = RateLimiter('sliding_window_count', fetch_redis_client())
 
     def __call__(self, request):
         identifiers = [request.path[1:], "ip", request.META.get('REMOTE_ADDR')]
